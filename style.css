@@ -48,7 +48,7 @@ a {
   grid-template-columns: repeat(4, 230px);
   gap: 30px;
   justify-content: center;
-  margin-bottom: 150px;
+  margin-bottom: 60px;
 }
 .item {
   border: 2px solid #212529;
