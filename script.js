@@ -1,36 +1,5 @@
 let shop = document.getElementById("shop");
 
-let shopItemsData = [
-  {
-    id: "anything1",
-    name: "casual pant",
-    price: 45,
-    desc: "lorem ipsam dolor sit amet consectetur adipisicing.",
-    img: "images/img1.webp",
-  },
-  {
-    id: "anything2",
-    name: "Office Pant",
-    price: 75,
-    desc: "lorem ipsam dolor sit amet consectetur adipisicing.",
-    img: "images/img9.webp",
-  },
-  {
-    id: "anything3",
-    name: "School Pant",
-    price: 145,
-    desc: "lorem ipsam dolor sit amet consectetur adipisicing.",
-    img: "images/img3.webp",
-  },
-  {
-    id: "anything4",
-    name: "College Pant",
-    price: 100,
-    desc: "lorem ipsam dolor sit amet consectetur adipisicing.",
-    img: "images/img6.jpg",
-  },
-];
-
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 let generateShop = () => {
